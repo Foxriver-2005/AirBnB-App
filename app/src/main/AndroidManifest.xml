@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        tools:replace="android:icon"
+        android:requestLegacyExternalStorage="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AirBnB"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31" >
+        <activity
+            android:name=".ActivityAfterNotification"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutActivityJava"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseImage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp4"
+            android:exported="false" />
+        <activity
+            android:name=".StarAirBnB"
+            android:exported="false" />
+        <activity
+            android:name=".DivisionWiseAirBnBs"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp3"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp2"
+            android:exported="false" />
+        <activity
+            android:name=".AfterCallingNotification"
+            android:exported="false" />
+        <activity
+            android:name=".Success"
+            android:exported="false" />
+        <activity
+            android:name=".NewPassword"
+            android:exported="false" />
+        <activity
+            android:name=".phoneAuth"
+            android:exported="false" />
+        <activity
+            android:name=".forgot"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn_Or_SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding"
+            android:exported="false" />
+        <activity
+            android:name=".UserImage"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityBeforeMap"
+            android:exported="false" />
+        <activity
+            android:name=".WatchLater"
+            android:exported="false" />
+        <activity
+            android:name=".Fav"
+            android:exported="false" />
+        <activity
+            android:name=".WatchAll"
+            android:exported="false" />
+        <activity
+            android:name=".Reviews"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBShowCase"
+            android:exported="false" />
+        <activity
+            android:name=".All_AirBnBs"
+            android:exported="false" />
+        <activity
+            android:name=".UserPrfofilew"
+            android:exported="false" />
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="true" />
+
+        <activity
+            android:name=".OrderConfirmation"
+            android:exported="false" />
+        <activity
+            android:name=".OrderReady"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeRoomInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Approval"
+            android:exported="false" />
+        <activity
+            android:name=".OrderGiven"
+            android:exported="false" />
+        <activity
+            android:name=".PhotosFor"
+            android:exported="false" />
+        <activity
+            android:name=".ShowAmenties"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateRooms"
+            android:exported="false" />
+        <activity
+            android:name=".OTPEMAIL"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateAccount"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBOverview"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBInfo"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBRooms"
+            android:exported="false" />
+        <activity
+            android:name=".roomCreation"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBregister5"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBRegister3"
+            android:exported="false" />
+        <activity
+            android:name=".phoneauth1"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBRegister4"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBRegister2"
+            android:exported="false" />
+        <activity
+            android:name=".AirBnBRegister"
+            android:exported="false" />
+        <activity
+            android:name=".DashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".CutomerOrOwner"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".FirebaseMessagingService"
+            android:exported="true"
+            android:permission="TODO"
+            tools:ignore="ExportedService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

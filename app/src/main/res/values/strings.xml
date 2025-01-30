@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AirBnB</string>
+
+    <string name="title_1">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="first">Search Airbnb</string>
+    <string name="second">Find Your Dream Airbnb</string>
+    <string name="title">Confirmation</string>
+    <string name="message">To change email address click on ok to enter otp which has been given in your email address</string>
+    <string name="third">Airbnb According To Budget</string>
+    <string-array name="HotelNames">
+        <item>Fox View</item>
+        <item>Star Pacific</item>
+        <item>Hilton Hotel</item>
+        <item>Kempinski</item>
+
+    </string-array>
+    <string-array name="Division">
+        <item>Nairobi- The City Of Nature and Peace</item>
+        <item>Mombasa- The City Of Cool Ocean breeze</item>
+        <item>Kisumu- The City Of Proffesors an lawyers</item>
+        <item>Nakuru- The City Of Beautiful scenery</item>
+        <item>Naivasha- The Hellsgate and safari Rally Preferred Town</item>
+        <item>Machakos- The City Of Mango</item>
+        <item>Thika- The City Of Industry</item>
+        <item>Eldoret- The City Of Champions</item>
+    </string-array>
+    <string-array name="HotelDes">
+        <item>Swimmingpool, Hospital, Free Breakfast, Easy Transport Sytsem.</item>
+        <item>Swimmingpool, Hospital, Free Breakfast, Easy Transport Sytsem.</item>
+        <item>Swimmingpool, Hospital, Free Breakfast, Easy Transport Sytsem.</item>
+        <item>Swimmingpool, Hospital, Free Breakfast, Easy Transport Sytsem.</item>
+
+    </string-array>
+    <string-array name="qua">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="Star">
+        <item>3 Star</item>
+        <item>4 Star</item>
+        <item>5 Star</item>
+    </string-array>
+    <string-array name="insti">
+        <item>Dedan Kimathi University of Science and Technology</item>
+        <item>Egerton Agricultural University</item>
+        <item>Technical Univerity of Kenya</item>
+        <item>Kenyatta University</item>
+        <item>Maseno University, Kisumu</item>
+        <item>South Eastern University of Kenya</item>
+        <item>Pwani University</item>
+        <item>Uon Institute of Business Administration, Nairobi</item>
+        <item>Coorporative School and College, Nairobi</item>
+        <item>NYS College, Housing Estate</item>
+        <item>Aga Khan Academy Model School and College</item>
+        <item>Kenya School of Science College</item>
+    </string-array>
+    <string-array name="Service">
+        <item>Free Breakfast, Free Wifi, Free Laundary, 24 hour Room Service.</item>
+        <item>Free Breakfast, Free Wifi, Free Laundary, 24 hour RoomService, Swimmingpool.</item>
+        <item>Free Breakfast, Free Wifi, Free Laundary, 24 hour RoomService, Swimmingpool, Hospital, Free Breakfast, Easy Transport Sytsem.</item>
+    </string-array>
+    <string name="title_activity_hotel_maps">Map</string>
+
+    <string name="google_maps_key" translatable="false">AIzaSyDd2QYQzrUCvgjhfzgdMd9M5qQB21DgAho</string>
+
+
+</resources>

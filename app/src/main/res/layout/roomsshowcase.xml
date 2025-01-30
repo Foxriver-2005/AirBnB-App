@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/LightWhite"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+
+    android:layout_marginRight="10dp"
+    android:id="@+id/ca1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/star31"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/Ab" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single Room"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/rn"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="@font/muli_black" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ksh. 2500"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/price"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="@font/muli_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_black"
+            android:id="@+id/service"
+            android:text="Free Breakfast, 24 hours Room Service "
+            android:textColor="#000"
+            android:textSize="12dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Update_Room"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="#000"
+                android:id="@+id/update"
+                android:layout_marginRight="5dp"
+
+                />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Delete_Room"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="#000"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/delete" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
