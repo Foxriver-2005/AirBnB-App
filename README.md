@@ -20,14 +20,14 @@ This open-source project is available for anyone to fork or contribute via pull 
     * The number of days of stay
     * Total cost is automatically calculated based on the room(s) and duration.
     * Once the selection is made, the customer submits the booking request.
-5. **Approval & Payment** <br>
-  * The booking request goes to the airbnb owner for approval. The owner checks the room availability and approves the request.
-  * The customer is notified via email about the approval and can proceed with payment.
-  * The customer pays 10% of the total booking price during the booking process.
-  * The remaining 90% of the total price is due upon arrival at the property (paid physically at the front desk).
-  * Payment is processed via MPesa. A prompt is sent to the customer to enter their MPesa details (number and PIN) to complete the transaction.
-  * Upon successful payment, the customer receives confirmation via email.
-6. **Rate & Review** <br>
+4. **Approval & Payment** <br>
+      * The booking request goes to the airbnb owner for approval. The owner checks the room availability and approves the request.
+      * The customer is notified via email about the approval and can proceed with payment.
+      * The customer pays 10% of the total booking price during the booking process.
+      * The remaining 90% of the total price is due upon arrival at the property (paid physically at the front desk).
+      * Payment is processed via MPesa. A prompt is sent to the customer to enter their MPesa details (number and PIN) to complete the transaction.
+      * Upon successful payment, the customer receives confirmation via email.
+5. **Rate & Review** <br>
   Customers can rate and review the property only if they have completed a booking that was approved by the owner or if they have previously stayed there.
 
 ### Airbnb Owners ###
