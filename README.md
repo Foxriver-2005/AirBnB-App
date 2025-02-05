@@ -81,11 +81,11 @@ This open-source project is available for anyone to fork or contribute via pull 
 3. **Profile Page** <br>
     Displays user details (e.g., name, phone number, email, profile picture, bio, etc.).
     ***Sections***:
-        * *Orders Given:* Shows a history of all orders made by the customer.
-        * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
-        * *Watch Later:* Displays saved airbnbs the customer has marked for later.
-        * *Upcoming Orders:* Shows all orders awaiting approval.
-        * *Pay Now:* Displays approved orders where the customer can make the final payment via MPesa.
+    * *Orders Given:* Shows a history of all orders made by the customer.
+    * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
+    * *Watch Later:* Displays saved airbnbs the customer has marked for later.
+    * *Upcoming Orders:* Shows all orders awaiting approval.
+    * *Pay Now:* Displays approved orders where the customer can make the final payment via MPesa.
 
 ### Customer Pages ###
 1. **Owner Dashboard**
