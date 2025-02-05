@@ -107,7 +107,11 @@ This open-source project is available for anyone to fork or contribute via pull 
 For owners, the phone number provided during registration must be used without the country code when logging in by prefixing it "4". For example, +254712345678 should be entered as 4712345678.
 
 ## Contribution ##
-This project is open-source and we welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
+If you feel like this project can be customized to better fit your requirements or use case, you're welcome to modify it! This app is designed to be flexible, so whether you want to add new features, improve existing functionality, or integrate with other systems, feel free to make changes that suit your needs.
+
+We encourage you to be part of the development by forking the project, submitting pull requests. Every contribution, big or small, is appreciated and helps make this project better for everyone!
+
+So if you have ideas to enhance the app, customize it for your region, or adapt it to a specific market—don’t hesitate to get involved!
 #### How to Contribute ####
 * Fork the repository.
 * Clone your fork.
