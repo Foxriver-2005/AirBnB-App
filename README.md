@@ -104,7 +104,7 @@ This open-source project is available for anyone to fork or contribute via pull 
 2. **Rating & Reviews**
     * *Customer Eligibility:* Customers can only leave a rating or review after their booking has been approved by the owner and after their stay.
 3. **Login Security** <br>
-For owners, the phone number provided during registration must be used without the country code when logging in. For example, +254712345678 should be entered as 4712345678.
+For owners, the phone number provided during registration must be used without the country code when logging in by prefixing it "4". For example, +254712345678 should be entered as 4712345678.
 
 ## Contribution ##
 This project is open-source and we welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
