@@ -50,7 +50,7 @@ This open-source project is available for anyone to fork or contribute via pull 
     The Bnb Overview Page provides detailed information about the property, including: <br>
     * The list of rooms and their availability (rooms can be scrolled for easy navigation). <br>
    **Sidebar Menu** <br>
-        Provides access to various management options, such as:
+        Provides access to various management options, such as: <br>
             * *Hotel Info:* Displays property details.
             * *Update Info:* Allows the owner to update general information about the property.
             * *Update Rooms:* Lets the owner edit, delete, or modify room information.
@@ -109,7 +109,7 @@ This project is open-source and we welcome contributions! Feel free to fork the 
 #### How to Contribute ####
 * Fork the repository.
 * Clone your fork.
-   * *git clone [https://github.com/yourusername/airbnb-booking-app.git](https://github.com/Foxriver-2005/AirBnB-App.git)* 
+   * *git clone https://github.com/Foxriver-2005/AirBnB-App.git* 
 * Create a new branch for your feature or bugfix
     * *git checkout -b feature/new-feature*
 * Make your changes and commit
