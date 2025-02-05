@@ -80,6 +80,7 @@ This open-source project is available for anyone to fork or contribute via pull 
     * *Profile:* Opens the user’s profile page.
 3. **Profile Page** <br>
     Displays user details (e.g., name, phone number, email, profile picture, bio, etc.).
+   
     ***Sections***:
     * *Orders Given:* Shows a history of all orders made by the customer.
     * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
