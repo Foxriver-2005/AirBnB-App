@@ -9,11 +9,11 @@ This open-source project is available for anyone to fork or contribute via pull 
     The customer logs into the app using their phone number. If a customer registers as a new user, they will input basic information and proceed with the registration.
 2. **Browse Airbnbs** <br>
   The customer can browse various airbnbs based on different criteria such as:
-  * Location
-  * Ratings
-  * Amenities
-  * Images of the rooms and property sections
-  * Price per room per day
+      * Location
+      * Ratings
+      * Amenities
+      * Images of the rooms and property sections
+      * Price per room per day
 3. **Booking Process** <br>
   The customer selects the room they wish to book and specifies:
     * The number of rooms
