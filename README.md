@@ -62,4 +62,43 @@ This open-source project is available for anyone to fork or contribute via pull 
     * Owners are notified by email when a customer submits a booking request.
     * After approving the booking and receiving confirmation of the customer’s payment, the owner is sent a final email confirming the transaction.
 
+## Key Features & Logic ##
+### Customer Pages ###
+1. **Dashboard**
+    * *Search Bar:* Allows customers to search airbnbs based on names, locations, cities, countries.
+    * *Featured Airbnb Section:* Shows the best or most booked airbnbs.
+    * *Star Rating Filter:* Customers can filter airbnbs based on their desired star ratings (3, 4, or 5 stars).
+    * *Map Search:* Displays available properties on a map for easier selection.
+2. **Dropdown Menu on Dashboard**
+    * *Home:* Takes the user back to the main dashboard.
+    * *Search:* Directs the user to search for airbnbs.
+    * *All Hotels:* Displays a list of all registered airbnbs.
+    * *Favorites:* Shows a list of airbnbs marked as favorites by the user.
+    * *Saved Hotels:* Displays the list of properties the customer has saved for later.
+    * *Profile:* Opens the user’s profile page.
+3. **Profile Page**
+Displays user details (e.g., name, phone number, email, profile picture, bio, etc.).
+* Sections:
+    * *Orders Given:* Shows a history of all orders made by the customer.
+    * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
+    * *Watch Later:* Displays saved airbnbs the customer has marked for later.
+    * *Upcoming Orders:* Shows all orders awaiting approval.
+    * *Pay Now:* Displays approved orders where the customer can make the final payment via MPesa.
 
+### Customer Pages ###
+1. **Owner Dashboard**
+    * Displays general statistics and earnings data.
+    * Responsive line and bar charts to show orders and earnings trends.
+2. **Bnb Overview**
+    * Displays information about the rooms, availability, and amenities.
+    * Ability to update and manage the property and rooms.
+3. **Approval System**
+Received orders are displayed under the "Need Approval" section for the owner to approve or reject based on room availability.
+## Security & Assurances ##
+1. **Payment Structure**
+    * *10% payment at the time of booking:* Customers are required to pay 10% of the total cost when making a booking.
+    * *Remaining 90% paid at the property:* The rest of the amount is paid upon arrival at the airbnb front desk.
+2. **Rating & Reviews**
+    *Customer Eligibility:* Customers can only leave a rating or review after their booking has been approved by the owner and after their stay.
+3. **Login Security**
+For owners, the phone number provided during registration must be used without the country code when logging in. For example, +254712345678 should be entered as 4712345678.
