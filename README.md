@@ -39,7 +39,7 @@ This open-source project is available for anyone to fork or contribute via pull 
 * For security reasons, the owner logs in using their phone number, but the login must be done without the country code (+254), instead just the "4" for Kenyan phone numbers. Example: +254712345678 becomes 4712345678.
 2. **Owner Dashboard** <br>
   ***Download Reports:*** Allows the owner to download a PDF report showing a detailed statement of the total orders received, customers’ names, amounts, and overall earnings. <br>
-  ***Statistics:** Displays real-time information such as:
+  ***Statistics:*** Displays real-time information such as:
       * Total orders received
       * Total earnings
       * Order average per month
