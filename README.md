@@ -49,16 +49,17 @@ This open-source project is available for anyone to fork or contribute via pull 
 3. **Airbnb Management** <br>
     The Bnb Overview Page provides detailed information about the property, including: <br>
     * The list of rooms and their availability (rooms can be scrolled for easy navigation). <br>
-   **Sidebar Menu** provides access to various management options, such as:
-        * *Hotel Info:* Displays property details.
-        * *Update Info:* Allows the owner to update general information about the property.
-        * *Update Rooms:* Lets the owner edit, delete, or modify room information.
-        * *Add Photos:* Allows the owner to upload new photos of various areas of the property (e.g., rooms, pool, conference areas).
-        * *Add Rooms:* Enables owners to add new rooms with detailed descriptions and pricing.
-        * *Need Approval:* Displays orders awaiting approval from customers, which the owner can accept after checking availability.
-        * *Add Amenities:* Allows the owner to list amenities such as Wi-Fi, TV, conference rooms, etc.
-        * *Orders Received:* Displays all confirmed bookings with customer details, payment status, and order history.
-5. **Email Notifications for Owners**
+   **Sidebar Menu** <br>
+        Provides access to various management options, such as:
+            * *Hotel Info:* Displays property details.
+            * *Update Info:* Allows the owner to update general information about the property.
+            * *Update Rooms:* Lets the owner edit, delete, or modify room information.
+            * *Add Photos:* Allows the owner to upload new photos of various areas of the property (e.g., rooms, pool, conference areas).
+            * *Add Rooms:* Enables owners to add new rooms with detailed descriptions and pricing.
+            * *Need Approval:* Displays orders awaiting approval from customers, which the owner can accept after checking availability.
+            * *Add Amenities:* Allows the owner to list amenities such as Wi-Fi, TV, conference rooms, etc.
+            * *Orders Received:* Displays all confirmed bookings with customer details, payment status, and order history.
+5. **Email Notifications for Owners** <br>
     * Owners are notified by email when a customer submits a booking request.
     * After approving the booking and receiving confirmation of the customer’s payment, the owner is sent a final email confirming the transaction.
 
@@ -76,14 +77,14 @@ This open-source project is available for anyone to fork or contribute via pull 
     * *Favorites:* Shows a list of airbnbs marked as favorites by the user.
     * *Saved Hotels:* Displays the list of properties the customer has saved for later.
     * *Profile:* Opens the user’s profile page.
-3. **Profile Page**
-Displays user details (e.g., name, phone number, email, profile picture, bio, etc.).
-* Sections:
-    * *Orders Given:* Shows a history of all orders made by the customer.
-    * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
-    * *Watch Later:* Displays saved airbnbs the customer has marked for later.
-    * *Upcoming Orders:* Shows all orders awaiting approval.
-    * *Pay Now:* Displays approved orders where the customer can make the final payment via MPesa.
+3. **Profile Page** <br>
+    Displays user details (e.g., name, phone number, email, profile picture, bio, etc.).
+    ***Sections***:
+        * *Orders Given:* Shows a history of all orders made by the customer.
+        * *Favorites:* Displays all the airbnbs the customer has marked as favorites.
+        * *Watch Later:* Displays saved airbnbs the customer has marked for later.
+        * *Upcoming Orders:* Shows all orders awaiting approval.
+        * *Pay Now:* Displays approved orders where the customer can make the final payment via MPesa.
 
 ### Customer Pages ###
 1. **Owner Dashboard**
@@ -92,27 +93,27 @@ Displays user details (e.g., name, phone number, email, profile picture, bio, et
 2. **Bnb Overview**
     * Displays information about the rooms, availability, and amenities.
     * Ability to update and manage the property and rooms.
-3. **Approval System**
-Received orders are displayed under the "Need Approval" section for the owner to approve or reject based on room availability.
+3. **Approval System** <br>
+    Received orders are displayed under the "Need Approval" section for the owner to approve or reject based on room availability.
 ## Security & Assurances ##
 1. **Payment Structure**
     * *10% payment at the time of booking:* Customers are required to pay 10% of the total cost when making a booking.
     * *Remaining 90% paid at the property:* The rest of the amount is paid upon arrival at the airbnb front desk.
 2. **Rating & Reviews**
-    *Customer Eligibility:* Customers can only leave a rating or review after their booking has been approved by the owner and after their stay.
-3. **Login Security**
+    * *Customer Eligibility:* Customers can only leave a rating or review after their booking has been approved by the owner and after their stay.
+3. **Login Security** <br>
 For owners, the phone number provided during registration must be used without the country code when logging in. For example, +254712345678 should be entered as 4712345678.
 
-### Contribution ###
+## Contribution ##
 This project is open-source and we welcome contributions! Feel free to fork the repository, make changes, and submit a pull request.
 #### How to Contribute ####
 * Fork the repository.
 * Clone your fork.
-   * git clone https://github.com/yourusername/airbnb-booking-app.git
+   * *git clone [https://github.com/yourusername/airbnb-booking-app.git](https://github.com/Foxriver-2005/AirBnB-App.git)* 
 * Create a new branch for your feature or bugfix
-    * git checkout -b feature/new-feature
+    * *git checkout -b feature/new-feature*
 * Make your changes and commit
-    * git commit -am "Add new feature"
+    * *git commit -am "Add new feature"*
 * Push to your fork
-    * git push origin feature/new-feature
-Open a pull request on GitHub.*   
+    * *git push origin feature/new-feature*
+* Open a pull request on GitHub.
