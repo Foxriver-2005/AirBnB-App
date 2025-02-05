@@ -44,6 +44,7 @@ This open-source project is available for anyone to fork or contribute via pull 
       * Total earnings
       * Order average per month
       * Earnings average per month
+  
   ***Visual Reports:*** Includes responsive charts to show the current month’s orders and earnings (line graph) as well as a bar chart showing the current year’s statistics.
 
 3. **Airbnb Management** <br>
