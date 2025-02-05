@@ -51,14 +51,14 @@ This open-source project is available for anyone to fork or contribute via pull 
     * The list of rooms and their availability (rooms can be scrolled for easy navigation). <br>
    **Sidebar Menu** <br>
         Provides access to various management options, such as: <br>
-            * *Hotel Info:* Displays property details.
-            * *Update Info:* Allows the owner to update general information about the property.
-            * *Update Rooms:* Lets the owner edit, delete, or modify room information.
-            * *Add Photos:* Allows the owner to upload new photos of various areas of the property (e.g., rooms, pool, conference areas).
-            * *Add Rooms:* Enables owners to add new rooms with detailed descriptions and pricing.
-            * *Need Approval:* Displays orders awaiting approval from customers, which the owner can accept after checking availability.
-            * *Add Amenities:* Allows the owner to list amenities such as Wi-Fi, TV, conference rooms, etc.
-            * *Orders Received:* Displays all confirmed bookings with customer details, payment status, and order history.
+        * *Hotel Info:* Displays property details.
+        * *Update Info:* Allows the owner to update general information about the property.
+        * *Update Rooms:* Lets the owner edit, delete, or modify room information.
+        * *Add Photos:* Allows the owner to upload new photos of various areas of the property (e.g., rooms, pool, conference areas).
+        * *Add Rooms:* Enables owners to add new rooms with detailed descriptions and pricing.
+        * *Need Approval:* Displays orders awaiting approval from customers, which the owner can accept after checking availability.
+        * *Add Amenities:* Allows the owner to list amenities such as Wi-Fi, TV, conference rooms, etc.
+        * *Orders Received:* Displays all confirmed bookings with customer details, payment status, and order history.
 5. **Email Notifications for Owners** <br>
     * Owners are notified by email when a customer submits a booking request.
     * After approving the booking and receiving confirmation of the customer’s payment, the owner is sent a final email confirming the transaction.
