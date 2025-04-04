@@ -106,6 +106,9 @@ This open-source project is available for anyone to fork or contribute via pull 
 3. **Login Security** <br>
 For owners, the phone number provided during registration must be used without the country code when logging in by prefixing it "4". For example, +254712345678 should be entered as 4712345678.
 
+![diagram](https://github.com/user-attachments/assets/e719198b-c02e-40f7-8d34-e0d2b5b878a3)
+
+
 ## Contribution ##
 If you feel like this project can be customized to better fit your requirements or use case, you're welcome to modify it! This app is designed to be flexible, so whether you want to add new features, improve existing functionality, or integrate with other systems, feel free to make changes that suit your needs.
 
